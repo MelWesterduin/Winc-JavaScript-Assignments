@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(243, 236, 227);
+}
+
+.toggle-button {
+  cursor: pointer;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-button:hover + .menu-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  border: solid 2px rgb(243, 236, 227);
+  background-color: rgb(243, 236, 227);
+  height: 50px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.rood {
+  border: solid 2px rgb(243, 236, 227);
+  background-color: red;
+  height: 50px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.geel {
+  border: solid 2px rgb(243, 236, 227);
+  background-color: yellow;
+  height: 50px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.roze {
+  border: solid 2px rgb(243, 236, 227);
+  background-color: pink;
+  height: 50px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.oranje {
+  border: solid 2px rgb(243, 236, 227);
+  background-color: orange;
+  height: 50px;
+  padding-left: 10px;
+  cursor: pointer;
+}

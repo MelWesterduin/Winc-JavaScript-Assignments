@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toggle Menu</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <img
+      onclick="toggleMenu()"
+      class="toggle-button"
+      src="Image/hamburger_menu.png"
+      width="60"
+    />
+    <ul id="toggleMenuContent" class="menu-content">
+        <label>
+          <li class="home" onclick="changeColor('rgb(243, 236, 227)', 'You are home');">
+          <input type="radio" name="choice" />Home
+          </li>
+        </label>
+        <label>
+          <li class="rood" onclick="changeColor('red', 'You chose red');">
+          <input type="radio" name="choice" />Red
+          </li>
+        </label>
+        <label>
+          <li class="geel" onclick="changeColor('yellow', 'You chose yellow');">
+          <input type="radio" name="choice" />Yellow
+          </li>
+        </label>
+        <label>
+          <li class="roze" onclick="changeColor('pink', 'You chose pink');">
+          <input type="radio" name="choice" />Pink
+          </li>
+        </label>
+        <label>
+          <li class="oranje" onclick="changeColor('orange', 'You chose orange');">
+          <input type="radio" name="choice" />Orange
+          </li>
+        </label>
+    </ul>
+    <div id="chosenColor"></div>
+  </body>
+</html>
